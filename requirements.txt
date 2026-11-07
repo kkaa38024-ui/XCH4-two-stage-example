@@ -1,0 +1,17 @@
+# Public APIs chosen for compatibility with the author's legacy environment.
+# These ranges are not a lock file; exact executed versions are recorded separately.
+numpy>=1.26.4,<3
+pandas>=2.2.2,<4
+scipy>=1.13.1,<2
+scikit-learn>=1.4.2,<2
+xgboost>=2.1.1,<4
+xarray>=2023.6
+netCDF4>=1.6.4,<2
+matplotlib>=3.8,<4
+joblib>=1.3,<2
+nbformat>=5.10,<6
+nbclient>=0.10,<1
+ipykernel>=6,<8
+notebook>=7,<8
+# Optional Stage1 PSO helper (required for its synthetic contract test).
+pyswarm>=0.6,<2

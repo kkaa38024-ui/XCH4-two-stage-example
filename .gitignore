@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+outputs/
+*.joblib
+*.pkl
+data/*.csv
+.DS_Store
